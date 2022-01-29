@@ -1,0 +1,5 @@
+lista = input().split()
+A = int(lista[0])
+B = int(lista[1])
+C = int(lista[2])
+print(f'{max(A, B, C)} eh o maior')

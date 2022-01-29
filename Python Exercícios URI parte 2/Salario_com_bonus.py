@@ -1,0 +1,5 @@
+nome = str(input())
+salario_fixo = float(input())
+vendas = float(input())
+salario_bonificado = salario_fixo + (15 / 100 * vendas)
+print('TOTAL = R$ {:.2f}'.format(salario_bonificado))
