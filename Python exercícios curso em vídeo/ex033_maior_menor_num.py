@@ -1,0 +1,5 @@
+num = str(input()).split()
+A = float(num[0])
+B = float(num[1])
+C = float(num[2])
+print(f'Máximo = {max(A, B, C)}' '\n' f'Mínimo = {min(A, B, C)}')
